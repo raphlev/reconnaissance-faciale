@@ -1,0 +1,18 @@
+vscode + python 3.6.8: https://www.python.org/downloads/release/python-368/ + add to PATH
+vscode>ctrl+shift+p>python:select interpreter>3.6.8
+pip install numpy
+pip install opencv-python
+pip install scipy
+pip install tensorflow==1.14
+pip install keras==2.2.5
+pip install pywin32
+pip install pypiwin32 
+
+optional - pip install spyder
+--> console: spyder3  = IDE for python
+
+all packages are automatically installed below
+C:\Users\xxx\AppData\Local\Programs\Python\Python36\Lib\site-packages
+
+Download file vgg-face.mat here and copy to vgg-face folder:
+https://www.vlfeat.org/matconvnet/models/vgg-face.mat

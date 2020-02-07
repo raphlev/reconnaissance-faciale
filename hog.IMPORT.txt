@@ -1,0 +1,12 @@
+python 3.6.8: https://www.python.org/downloads/release/python-368/ + add to PATH
+vscode>ctrl+shift+p>python:select interpreter>3.6.8
+pip3 install opencv-python
+pip3 install scikit-image
+pip3 install image
+
+all packages are automatically installed below
+C:\Users\xxx\AppData\Local\Programs\Python\Python36\Lib\site-packages
+
+
+To fix TypeError: hog() got an unexpected keyword argument 'visualise':
+- In hog.py, update visualise=True into visualize=True

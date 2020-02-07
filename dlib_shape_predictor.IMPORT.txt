@@ -1,0 +1,20 @@
+python 3.6.8: https://www.python.org/downloads/release/python-368/ + add to PATH
+vscode>ctrl+shift+p>python:select interpreter>3.6.8
+
+Download file shape_predictor_68_face_landmarks.dat and copy it to project directory (>50MB, not possible to upload to git): 
+https://github.com/penseeartificielle/reconnaissance-faciale/blob/master/shape_predictor_68_face_landmarks.dat
+
+
+To avoid dlib installation problem, install the packages below:
+Install Cmake:https://cmake.org/download/
+pip install numpy scipy matplotlib scikit-learn jupyter
+pip install opencv-contrib-python
+pip install dlib
+pip install imutils
+
+all packages are automatically installed below
+C:\Users\xxx\AppData\Local\Programs\Python\Python36\Lib\site-packages
+
+dlib installation is NOT WORKING !! Install anaconda + Visual Sudio is required..
+See tutorial where this program is coming from:
+https://www.pyimagesearch.com/2018/04/02/faster-facial-landmark-detector-with-dlib/
